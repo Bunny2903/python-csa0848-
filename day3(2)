@@ -1,0 +1,4 @@
+import itertools
+digits =input("enter digits:")
+combinations = [''.join(i) for i in itertools.permutations(digits)]
+print("combinations are:",combinations)
